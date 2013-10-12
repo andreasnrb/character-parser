@@ -1,0 +1,30 @@
+{
+    "name": "cyonite/character-parser",
+    "description": "Parse JavaScript one character at a time to look for snippets in Templates.  This is not a validator, it's just designed to allow you to have sections of JavaScript delimited by brackets robustly.",
+    "keywords": ["parser", "javascript","template"],
+    "homepage": "https://github.com/cyonite/character-parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Nurbo",
+            "email": "",
+            "homepage": "http://cyonitesystems.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "CharacterParser": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}

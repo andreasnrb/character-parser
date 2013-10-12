@@ -2,7 +2,7 @@
 
 namespace CharacterParser\tests;
 
-include __DIR__ . '/../CharacterParser.php';
+include __DIR__ . '/../src/CharacterParser.php';
 use CharacterParser\CharacterParser;
 use PHPUnit_Framework_TestCase;
 

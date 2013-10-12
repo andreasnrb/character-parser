@@ -3,7 +3,7 @@
         colors="true" bootstrap="./vendor/autoload.php">
     <testsuites>
         <testsuite name="CharacterParser tests">
-            <directory>./src/tests</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
